@@ -29,7 +29,7 @@ function Header() {
               </button>
             </a>
             <button
-              onClick={window.close()}
+              onClick={window.open("", "_self").close()}
               id="btnnn"
               className="text-[24px] font-semibold "
             >
