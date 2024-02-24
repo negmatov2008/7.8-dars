@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#modalCont {
+  width: 592px;
+  height: 445px;
+  flex-shrink: 0;
+  margin: 9% auto;
+  border-radius: 72px;
+  background: linear-gradient(180deg, #344aba 0%, rgba(0, 20, 121, 0.83) 100%);
+  box-shadow: 0px 6px 0px 8px #2463ff inset, 0px -8px 0px 4px #140e66 inset;
+}
+#btnn {
+  display: inline-flex;
+  padding: 12px 64px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 40px;
+  background: var(--Blue, #2463ff);
+  box-shadow: 0px 1px 0px 6px #3c74ff inset, 0px -2px 0px 3px #140e66 inset;
+  color: var(--White, #fff);
+}
+#btnnn {
+  display: inline-flex;
+  padding: 12px 64px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 40px;
+  background: var(
+    --Pink-Gradient,
+    linear-gradient(180deg, #fe71fe 16.42%, #7199ff 100%)
+  );
+  box-shadow: 0px 1px 0px 6px #c642fb inset, 0px -2px 0px 3px #140e66 inset;
+}
