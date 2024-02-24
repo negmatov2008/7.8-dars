@@ -8,7 +8,7 @@ function App() {
  
   return (
     <Provider store={store}>
-      <div className="max-w-[100%]  bg- relative  h-full bg-[url('bg.png')] bg-no-repeat bg-cover ">
+      <div className="max-w-[100%]  bg- relative  h-full bg-[url('./public/bg.png')] bg-no-repeat bg-cover ">
         <div className="max-w-[80%] pt-10 mx-auto">
           <Header />
           <Game />
