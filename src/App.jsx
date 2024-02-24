@@ -7,7 +7,7 @@ import store from "./redux/store";
 function App() {
   return (
     <Provider store={store}>
-      <div className="max-w-[100%]  bg- relative  h-full  bg-[linear-gradient(180deg, #1A043A 0%, #151278 70.31%, #2B1677 100%)]  ">
+      <div className="max-w-[100%]  bg- relative  h-full  bg-[#151278]  ">
         <div className="max-w-[80%] pt-10 mx-auto">
           <Header />
           <Game />
