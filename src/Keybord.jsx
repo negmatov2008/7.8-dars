@@ -36,7 +36,7 @@ function Keybord() {
   const handleClick = (value) => {
     dispatch(addTOLettter(value.target.textContent));
 
-    console.log(value.target.disabled = true);
+    console.log((value.target.disabled = true));
   };
 
   return (
